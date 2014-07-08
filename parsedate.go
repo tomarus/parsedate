@@ -86,7 +86,7 @@ func maintest() {
 		}
 
 		//t, err := parse(string(str), time.Now())
-		_, err = parseDate(string(str))
+		_, err = Parse(string(str))
 		if err != nil {
 			fmt.Printf("error: %v\n", err)
 		} else {
