@@ -26,6 +26,8 @@ type formatInfo struct {
 var formats = []formatInfo{
 	{time.RFC1123, ""},
 	{time.RFC1123Z, ""},
+	{time.RFC3339, ""},
+	{time.RFC3339Nano, ""},
 	{"02 Jan 06 15:04:05", ""},
 	{"02 Jan 06 15:04:05 +-0700", ""},
 	{"02 Jan 06 15:4:5 MST", ""},
